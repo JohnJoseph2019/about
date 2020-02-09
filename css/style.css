@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: #000; */
+  background-color: black;
+  position: relative;
+  /* font-family: 'Ubuntu Mono',
+    monospace; */
+  font-family: 'Crafty Girls', cursive;
+
+}
+
+.details {
+  color: white;
+}
+
+.profile-link {
+  /* color: #019cdc; */
+  color: rgba(163, 63, 163, 0.8);
+  font-size: 12px;
+  display: block;
+}
+
+.link-heading {
+  display: block;
+  font-size: 12px;
+}
+
+a:hover,
+a:visited:hover {
+  font-size: 30px;
+  color: red;
+}
+
+a:visited {
+  color: rgba(39, 236, 13, 0.8);
+}
+
+.square-one .inner {
+  background: rgb(0, 132, 255);
+}
+
+.square-two .inner {
+  background:  rgb(235, 0, 235);
+}
+
+.square-three .inner {
+  background:  rgb(235, 9, 9);
+}
+
+.outer {
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+
+.left {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.right {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  position: relative;
+  width: 340px;
+  height: 345px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.square {
+  position: absolute;
+  display: flex;
+  margin-right: 30px;
+  height: 240px;
+  width: 240px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+}
+
+.inner {
+  height: 350px;
+  width: 4px;
+  margin-right: 8px;
+}
+
+
+.square-one {
+  left: 48px;
+  top: 52px;
+}
+
+.wrap:hover .square-one {
+  /* left: 0; */
+  top: -300px;
+}
+
+.square-two {
+  left: 52px;
+  top: 52px;
+}
+
+.square-three {
+  left: 56px;
+  top: 52px;
+}
+
+.wrap:hover .square-three {
+  /* left: 104px; */
+  top: 400px;
+  /* bottom: -100px; */
+}
+
+.wrap:hover .square-two {
+  left: 150px;
+
+}
