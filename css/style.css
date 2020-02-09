@@ -20,8 +20,8 @@ body {
 
 .profile-link {
   /* color: #019cdc; */
-  color: rgba(163, 63, 163, 0.8);
-  font-size: 12px;
+  color: rgba(0, 224, 86, 0.8);
+  font-size: 17px;
   display: block;
 }
 
@@ -37,7 +37,7 @@ a:visited:hover {
 }
 
 a:visited {
-  color: rgba(39, 236, 13, 0.8);
+  color: rgb(248, 232, 0);
 }
 
 .square-one .inner {
